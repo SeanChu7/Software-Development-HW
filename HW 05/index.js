@@ -36,6 +36,7 @@ var makeChart = function() {
 var editChart = function() {
 	d3.selectAll("div")
 		.data(info)
+		.transition(20000)
 		.style("width",function(d){return x(d[0] + d[2]) + "px"}) //Set the length in proportion to delegates
 		.text(function(d){return (d[0] + d[2])}) //Set text to name + delegates
 		.style("background-color",function(d){if (d[0] == 0){return "red"} return "blue"})
