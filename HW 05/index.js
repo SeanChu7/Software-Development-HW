@@ -50,6 +50,7 @@ var swap = function() {
 		document.getElementById("total").innerHTML = "Total Delegate Count: 2358";
 		document.getElementById("alloted").innerHTML = "Alloted Delegates: 1412";
 		document.getElementById("unalloted").innerHTML = "Unalloted Delegates: 946";
+		document.getElementById("party").innerHTML = "Republican Primary";
 	}
 	else {
 		info =[];
@@ -59,6 +60,7 @@ var swap = function() {
 		document.getElementById("total").innerHTML = "Total Delegate Count: 3961";
 		document.getElementById("alloted").innerHTML = "Alotted Delegates: 1964";
 		document.getElementById("unalloted").innerHTML = "Unalloted Delegates: 1997";
+		document.getElementById("party").innerHTML = "Democratic Primary";
 	}
 }
 setArray();
