@@ -4,7 +4,7 @@ def repeat(s):
         for x in range(n):
             result+=s
         return result
-    return repeat
+    return again
 
 r1 = repeat("hello")
 r2 = repeat("goodbye")
