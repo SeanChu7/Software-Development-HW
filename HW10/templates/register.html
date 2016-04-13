@@ -1,0 +1,16 @@
+{% extends "master.html" %}
+{% block title %}Register!{% endblock %}
+
+{% block body %}
+<form class="login" method="POST">
+  {% if err %}
+  <err>{{err}}</err>
+  {% endif %}
+  <br>
+  <div>Register</div><br>
+	Username:<input type = "text" name = "username" placeholder="Username"></input><br><br>
+	Password:<input type = "password" name = "password" placeholder="Password"></input><br><br>
+	<input type="submit" name="button" value="Register"></input>
+	<input type="submit" name="button" value="Login"></input>
+</form>
+{% endblock %}
